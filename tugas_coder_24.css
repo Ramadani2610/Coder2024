@@ -1,0 +1,41 @@
+body{
+    background: rgb(162,2,72);
+    background: radial-gradient(circle, rgba(162,2,72,1) 0%, rgba(83,0,7,1) 100%);
+    color:  white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h1{
+    display: flex;
+    justify-content: center;  /* Rata tengah horizontal */
+    align-items: center;     /* Rata tengah vertikal */
+    height: 30px;           /* Mengambil tinggi viewport */
+           
+}
+.container {
+    display: flex;
+    gap: 20px;
+}
+.font-style, .lists {
+    flex: 1;
+}
+.font-style {
+    margin-right: 20px;
+}
+.tab {
+    padding: 10px;
+}
+table {
+    margin-top: 20px;
+    border: 1px;
+    background-color:rgb(234, 222, 222);
+}
+.col{
+    text-align: center;
+    background-color: #ce809b;
+}
+.col-1{
+   text-align: center;
+    background-color: rgb(119, 1, 48);
+}
+
